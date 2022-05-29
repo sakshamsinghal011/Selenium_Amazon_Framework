@@ -1,0 +1,59 @@
+2022-03-06 16:51:51,741  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:51:53,345  INFO [main] BaseTest:82 - operationaddByPin has started
+2022-03-06 16:51:54,051  INFO [main] BaseTest:96 - operationaddByPin has ended
+2022-03-06 16:51:54,055  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:51:55,867  INFO [main] BaseTest:82 - operationthrougSignIN has started
+2022-03-06 16:51:56,445  INFO [main] BaseTest:96 - operationthrougSignIN has ended
+2022-03-06 16:51:56,446  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:51:57,556  INFO [main] BaseTest:82 - operationInvalidAddPin has started
+2022-03-06 16:51:58,309  INFO [main] BaseTest:96 - operationInvalidAddPin has ended
+2022-03-06 16:51:58,311  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:51:59,717  INFO [main] BaseTest:82 - operationsubscription has started
+2022-03-06 16:52:04,592  INFO [main] BaseTest:96 - operationsubscription has ended
+2022-03-06 16:52:04,593  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:05,779  INFO [main] BaseTest:82 - operationsorting has started
+2022-03-06 16:52:13,465  INFO [main] BaseTest:96 - operationsorting has ended
+2022-03-06 16:52:13,466  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:14,561  INFO [main] BaseTest:82 - operationclickOnCountry_Button has started
+2022-03-06 16:52:36,285  INFO [main] BaseTest:96 - operationclickOnCountry_Button has ended
+2022-03-06 16:52:36,286  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:37,429  INFO [main] BaseTest:82 - operationclickOnImage has started
+2022-03-06 16:52:39,716  INFO [main] BaseTest:96 - operationclickOnImage has ended
+2022-03-06 16:52:39,718  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:40,737  INFO [main] BaseTest:82 - operationaddToCart has started
+2022-03-06 16:52:42,905  INFO [main] BaseTest:96 - operationaddToCart has ended
+2022-03-06 16:52:43,250  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:44,275  INFO [main] BaseTest:82 - operationfindBlankText has started
+2022-03-06 16:52:45,640  INFO [main] BaseTest:96 - operationfindBlankText has ended
+2022-03-06 16:52:45,641  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:46,417  INFO [main] BaseTest:82 - operationpass has started
+2022-03-06 16:52:49,177  INFO [main] BaseTest:96 - operationpass has ended
+2022-03-06 16:52:49,179  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:50,347  INFO [main] BaseTest:82 - operationinvaildLogin has started
+2022-03-06 16:52:52,376  INFO [main] BaseTest:96 - operationinvaildLogin has ended
+2022-03-06 16:52:52,378  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:53,419  INFO [main] BaseTest:82 - operationvalidLogin has started
+2022-03-06 16:52:55,218  INFO [main] BaseTest:96 - operationvalidLogin has ended
+2022-03-06 16:52:55,219  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:52:56,230  INFO [main] BaseTest:82 - operationvalidRegistration has started
+2022-03-06 16:53:07,547  INFO [main] BaseTest:96 - operationvalidRegistration has ended
+2022-03-06 16:53:07,767  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:53:08,798  INFO [main] BaseTest:82 - operationpayementOption has started
+2022-03-06 16:53:11,412  INFO [main] BaseTest:96 - operationpayementOption has ended
+2022-03-06 16:53:11,413  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:53:12,440  INFO [main] BaseTest:82 - operationsignInandSecurity has started
+2022-03-06 16:53:15,573  INFO [main] BaseTest:96 - operationsignInandSecurity has ended
+2022-03-06 16:53:15,575  INFO [main] BaseTest:150 - amazon page open
+2022-03-06 16:53:16,606  INFO [main] BaseTest:82 - operationyourOrder has started
+2022-03-06 16:53:20,821  INFO [main] BaseTest:96 - operationyourOrder has ended
+2022-03-06 16:53:24,983  INFO [main] BaseTest:157 - browser close
+2022-03-06 16:53:25,002 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-06 16:53:25,003 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-03-06 16:53:25,004 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-03-06 16:53:25,005 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-03-06 16:53:25,005 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sangeethapanicker/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-03-06 16:53:25,162 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-06 16:53:25,163 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-03-06 16:53:25,163 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-03-06 16:53:25,164 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-03-06 16:53:25,164 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sangeethapanicker/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

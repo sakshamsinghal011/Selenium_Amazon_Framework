@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">131,539</td><td>valid, invalid, check</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Amazon.tests.addAddressTest</td><td><a href="#m0">InvalidAddPin</a></td><td rowspan="1">1653116643078</td><td rowspan="1">897</td></tr><tr class="failedodd"><td rowspan="1">com.Amazon.tests.amazonPrimeTest</td><td><a href="#m1">subscription</a></td><td rowspan="1">1653116645684</td><td rowspan="1">14026</td></tr><tr class="failedeven"><td rowspan="1">com.Amazon.tests.changePassword_Test</td><td><a href="#m2">pass</a></td><td rowspan="1">1653116727624</td><td rowspan="1">13457</td></tr><tr class="failedodd"><td rowspan="1">com.Amazon.tests.sortPurchase_Test</td><td><a href="#m3">sorting</a></td><td rowspan="1">1653116661481</td><td rowspan="1">15713</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.Amazon.tests.SignInTest</td><td><a href="#m4">invaildLogin</a></td><td rowspan="1">1653116742458</td><td rowspan="1">1808</td></tr><tr class="passedeven"><td><a href="#m5">validLogin</a></td><td rowspan="1">1653116745399</td><td rowspan="1">2829</td></tr><tr class="passedodd"><td rowspan="1">com.Amazon.tests.SignUpTest</td><td><a href="#m6">validRegistration</a></td><td rowspan="1">1653116749333</td><td rowspan="1">1802</td></tr><tr class="passedeven"><td rowspan="3">com.Amazon.tests.YourAccountSection_Test</td><td><a href="#m7">payementOption</a></td><td rowspan="1">1653116752203</td><td rowspan="1">4028</td></tr><tr class="passedeven"><td><a href="#m8">signInandSecurity</a></td><td rowspan="1">1653116757664</td><td rowspan="1">4054</td></tr><tr class="passedeven"><td><a href="#m9">yourOrder</a></td><td rowspan="1">1653116763017</td><td rowspan="1">4893</td></tr><tr class="passedodd"><td rowspan="2">com.Amazon.tests.addAddressTest</td><td><a href="#m10">addByPin</a></td><td rowspan="1">1653116638253</td><td rowspan="1">850</td></tr><tr class="passedodd"><td><a href="#m11">througSignIN</a></td><td rowspan="1">1653116640590</td><td rowspan="1">830</td></tr><tr class="passedeven"><td rowspan="2">com.Amazon.tests.addToCartTest</td><td><a href="#m12">addToCart</a></td><td rowspan="1">1653116705912</td><td rowspan="1">15538</td></tr><tr class="passedeven"><td><a href="#m13">findBlankText</a></td><td rowspan="1">1653116722784</td><td rowspan="1">3627</td></tr><tr class="passedodd"><td rowspan="1">com.Amazon.tests.changeCountry_Test</td><td><a href="#m14">clickOnCountry_Button</a></td><td rowspan="1">1653116678789</td><td rowspan="1">22131</td></tr><tr class="passedeven"><td rowspan="1">com.Amazon.tests.forwardAndBackward_Pic_Test</td><td><a href="#m15">clickOnImage</a></td><td rowspan="1">1653116702299</td><td rowspan="1">2452</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.Amazon.tests.addAddressTest#InvalidAddPin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
+	at com.Amazon.tests.addAddressTest.InvalidAddPin(addAddressTest.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.Amazon.tests.amazonPrimeTest#subscription</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sangeetha@gmail.com</td><td>121222</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //span[@class=&apos;pv-nav-link-with-droplist&apos;]//span//a[@id=&apos;pv-nav-sign-in&apos;]&quot;}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN-PG02P4WW&apos;, ip: &apos;192.168.29.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value= //span[@class=&apos;pv-nav-link-with-droplist&apos;]//span//a[@id=&apos;pv-nav-sign-in&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.Amazon.pages.amazonPrime.signInButton(amazonPrime.java:43)
+	at com.Amazon.tests.amazonPrimeTest.subscription(amazonPrimeTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.Amazon.tests.changePassword_Test#pass</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>sangeetha@gmail.com</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;	//a[@id=&apos;auth-fpp-link-bottom&apos;]
+&quot;}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN-PG02P4WW&apos;, ip: &apos;192.168.29.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value=	//a[@id=&apos;auth-fpp-link-bottom&apos;]
+}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.Amazon.pages.changePassword.forgotPassword(changePassword.java:28)
+	at com.Amazon.tests.changePassword_Test.pass(changePassword_Test.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.Amazon.tests.sortPurchase_Test#sorting</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//li[@id=&apos;p_90/6741118031&apos;]//i[@class=&apos;a-icon a-icon-checkbox&apos;]&quot;}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN-PG02P4WW&apos;, ip: &apos;192.168.29.172&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value=//li[@id=&apos;p_90/6741118031&apos;]//i[@class=&apos;a-icon a-icon-checkbox&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at com.Amazon.pages.sortPurchase.getItByTomorrow(sortPurchase.java:42)
+	at com.Amazon.tests.sortPurchase_Test.sorting(sortPurchase_Test.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.Amazon.tests.SignInTest#invaildLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sangeetha</td><td>12345</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.Amazon.tests.SignInTest#validLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sangeetha@gmail.com</td><td>121222</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.Amazon.tests.SignUpTest#validRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.Amazon.tests.YourAccountSection_Test#payementOption</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sangeetha@gmail.com</td><td>121222</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.Amazon.tests.YourAccountSection_Test#signInandSecurity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sangeetha@gmail.com</td><td>121222</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.Amazon.tests.YourAccountSection_Test#yourOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>sangeetha@gmail.com</td><td>121222</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.Amazon.tests.addAddressTest#addByPin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.Amazon.tests.addAddressTest#througSignIN</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.Amazon.tests.addToCartTest#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.Amazon.tests.addToCartTest#findBlankText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.Amazon.tests.changeCountry_Test#clickOnCountry_Button</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.Amazon.tests.forwardAndBackward_Pic_Test#clickOnImage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

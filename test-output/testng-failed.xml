@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="121222"/>
+    <parameter name="invalidPassword" value="12345"/>
+    <parameter name="email" value="sangeetha@gmail.com"/>
+    <parameter name="invalidEmail" value="sangeetha"/>
+    <groups>
+      <run>
+        <include name="check"/>
+        <include name="valid"/>
+        <include name="invalid"/>
+        <exclude name=""/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Amazon.tests.changePassword_Test">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="closeBrowser"/>
+          <include name="pass" invocation-numbers="0"/>
+          <include name="endExtent"/>
+          <include name="logTest"/>
+          <include name="endLog"/>
+          <include name="setExtent"/>
+          <include name="screenshot"/>
+          <include name="openBrowser"/>
+          <include name="inializeWebDriver"/>
+        </methods>
+      </class> <!-- com.Amazon.tests.changePassword_Test -->
+      <class name="com.Amazon.tests.addAddressTest">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="InvalidAddPin"/>
+          <include name="closeBrowser"/>
+          <include name="endExtent"/>
+          <include name="logTest"/>
+          <include name="endLog"/>
+          <include name="setExtent"/>
+          <include name="screenshot"/>
+          <include name="openBrowser"/>
+          <include name="inializeWebDriver"/>
+        </methods>
+      </class> <!-- com.Amazon.tests.addAddressTest -->
+      <class name="com.Amazon.tests.sortPurchase_Test">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="closeBrowser"/>
+          <include name="sorting"/>
+          <include name="endExtent"/>
+          <include name="logTest"/>
+          <include name="endLog"/>
+          <include name="setExtent"/>
+          <include name="screenshot"/>
+          <include name="openBrowser"/>
+          <include name="inializeWebDriver"/>
+        </methods>
+      </class> <!-- com.Amazon.tests.sortPurchase_Test -->
+      <class name="com.Amazon.tests.amazonPrimeTest">
+        <methods>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="closeBrowser"/>
+          <include name="subscription" invocation-numbers="0"/>
+          <include name="endExtent"/>
+          <include name="logTest"/>
+          <include name="endLog"/>
+          <include name="setExtent"/>
+          <include name="screenshot"/>
+          <include name="openBrowser"/>
+          <include name="inializeWebDriver"/>
+        </methods>
+      </class> <!-- com.Amazon.tests.amazonPrimeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

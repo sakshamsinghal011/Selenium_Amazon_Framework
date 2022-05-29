@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="45" total="61" passed="12" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-21T12:33:56 IST" name="Suite" finished-at="2022-05-21T12:36:07 IST" duration-ms="131539">
+    <groups>
+      <group name="valid">
+        <method signature="SignInTest.validLogin(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.SignInTest@7b36aa0c]" name="validLogin" class="com.Amazon.tests.SignInTest"/>
+        <method signature="SignUpTest.validRegistration()[pri:1, instance:com.Amazon.tests.SignUpTest@5824a83d]" name="validRegistration" class="com.Amazon.tests.SignUpTest"/>
+        <method signature="YourAccountSection_Test.payementOption(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" name="payementOption" class="com.Amazon.tests.YourAccountSection_Test"/>
+        <method signature="YourAccountSection_Test.signInandSecurity(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" name="signInandSecurity" class="com.Amazon.tests.YourAccountSection_Test"/>
+        <method signature="YourAccountSection_Test.yourOrder(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" name="yourOrder" class="com.Amazon.tests.YourAccountSection_Test"/>
+        <method signature="addAddressTest.addByPin()[pri:1, instance:com.Amazon.tests.addAddressTest@130c12b7]" name="addByPin" class="com.Amazon.tests.addAddressTest"/>
+        <method signature="addAddressTest.througSignIN()[pri:2, instance:com.Amazon.tests.addAddressTest@130c12b7]" name="througSignIN" class="com.Amazon.tests.addAddressTest"/>
+        <method signature="addToCartTest.addToCart()[pri:1, instance:com.Amazon.tests.addToCartTest@4a883b15]" name="addToCart" class="com.Amazon.tests.addToCartTest"/>
+        <method signature="amazonPrimeTest.subscription(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764]" name="subscription" class="com.Amazon.tests.amazonPrimeTest"/>
+        <method signature="changeCountry_Test.clickOnCountry_Button()[pri:1, instance:com.Amazon.tests.changeCountry_Test@2e6a8155]" name="clickOnCountry_Button" class="com.Amazon.tests.changeCountry_Test"/>
+        <method signature="changePassword_Test.pass(java.lang.String)[pri:1, instance:com.Amazon.tests.changePassword_Test@25641d39]" name="pass" class="com.Amazon.tests.changePassword_Test"/>
+        <method signature="forwardAndBackward_Pic_Test.clickOnImage()[pri:1, instance:com.Amazon.tests.forwardAndBackward_Pic_Test@6221a451]" name="clickOnImage" class="com.Amazon.tests.forwardAndBackward_Pic_Test"/>
+        <method signature="sortPurchase_Test.sorting()[pri:1, instance:com.Amazon.tests.sortPurchase_Test@51c668e3]" name="sorting" class="com.Amazon.tests.sortPurchase_Test"/>
+      </group> <!-- valid -->
+      <group name="invalid">
+        <method signature="SignInTest.invaildLogin(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.SignInTest@7b36aa0c]" name="invaildLogin" class="com.Amazon.tests.SignInTest"/>
+        <method signature="addAddressTest.InvalidAddPin()[pri:3, instance:com.Amazon.tests.addAddressTest@130c12b7]" name="InvalidAddPin" class="com.Amazon.tests.addAddressTest"/>
+        <method signature="addToCartTest.findBlankText()[pri:2, instance:com.Amazon.tests.addToCartTest@4a883b15]" name="findBlankText" class="com.Amazon.tests.addToCartTest"/>
+      </group> <!-- invalid -->
+      <group name="sanity">
+        <method signature="amazonPrimeTest.subscription(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764]" name="subscription" class="com.Amazon.tests.amazonPrimeTest"/>
+      </group> <!-- sanity -->
+      <group name="check">
+        <method signature="addAddressTest.InvalidAddPin()[pri:3, instance:com.Amazon.tests.addAddressTest@130c12b7]" name="InvalidAddPin" class="com.Amazon.tests.addAddressTest"/>
+        <method signature="addAddressTest.addByPin()[pri:1, instance:com.Amazon.tests.addAddressTest@130c12b7]" name="addByPin" class="com.Amazon.tests.addAddressTest"/>
+        <method signature="addAddressTest.througSignIN()[pri:2, instance:com.Amazon.tests.addAddressTest@130c12b7]" name="througSignIN" class="com.Amazon.tests.addAddressTest"/>
+      </group> <!-- check -->
+    </groups>
+    <test started-at="2022-05-21T12:33:56 IST" name="Test" finished-at="2022-05-21T12:36:07 IST" duration-ms="131539">
+      <class name="com.Amazon.tests.SignInTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:41 IST" name="openBrowser" finished-at="2022-05-21T12:35:42 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:42 IST" name="startTest" finished-at="2022-05-21T12:35:42 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.SignInTest.invaildLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="invaildLogin(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:42 IST" name="invaildLogin" finished-at="2022-05-21T12:35:44 IST" duration-ms="1808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sangeetha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invaildLogin -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:44 IST" name="endLog" finished-at="2022-05-21T12:35:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.SignInTest.invaildLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:44 IST" name="endTest" finished-at="2022-05-21T12:35:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:44 IST" name="screenshot" finished-at="2022-05-21T12:35:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invaildLogin status=SUCCESS method=SignInTest.invaildLogin(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.SignInTest@7b36aa0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:44 IST" name="openBrowser" finished-at="2022-05-21T12:35:45 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:45 IST" name="startTest" finished-at="2022-05-21T12:35:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.Amazon.tests.SignInTest.validLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:45 IST" name="validLogin" finished-at="2022-05-21T12:35:48 IST" duration-ms="2829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sangeetha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[121222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:48 IST" name="endLog" finished-at="2022-05-21T12:35:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.Amazon.tests.SignInTest.validLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:48 IST" name="endTest" finished-at="2022-05-21T12:35:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.SignInTest@7b36aa0c]" started-at="2022-05-21T12:35:48 IST" name="screenshot" finished-at="2022-05-21T12:35:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=SignInTest.validLogin(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.SignInTest@7b36aa0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.Amazon.tests.SignInTest -->
+      <class name="com.Amazon.tests.SignUpTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.SignUpTest@5824a83d]" started-at="2022-05-21T12:35:48 IST" name="openBrowser" finished-at="2022-05-21T12:35:49 IST" duration-ms="1100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.SignUpTest@5824a83d]" started-at="2022-05-21T12:35:49 IST" name="startTest" finished-at="2022-05-21T12:35:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.SignUpTest.validRegistration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="validRegistration()[pri:1, instance:com.Amazon.tests.SignUpTest@5824a83d]" started-at="2022-05-21T12:35:49 IST" name="validRegistration" finished-at="2022-05-21T12:35:51 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistration -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.SignUpTest@5824a83d]" started-at="2022-05-21T12:35:51 IST" name="endLog" finished-at="2022-05-21T12:35:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.SignUpTest.validRegistration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.SignUpTest@5824a83d]" started-at="2022-05-21T12:35:51 IST" name="endTest" finished-at="2022-05-21T12:35:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.SignUpTest@5824a83d]" started-at="2022-05-21T12:35:51 IST" name="screenshot" finished-at="2022-05-21T12:35:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validRegistration status=SUCCESS method=SignUpTest.validRegistration()[pri:1, instance:com.Amazon.tests.SignUpTest@5824a83d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.Amazon.tests.SignUpTest -->
+      <class name="com.Amazon.tests.YourAccountSection_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:51 IST" name="openBrowser" finished-at="2022-05-21T12:35:52 IST" duration-ms="1060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:52 IST" name="startTest" finished-at="2022-05-21T12:35:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.YourAccountSection_Test.payementOption(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="payementOption(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:52 IST" name="payementOption" finished-at="2022-05-21T12:35:56 IST" duration-ms="4028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sangeetha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[121222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payementOption -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:56 IST" name="endLog" finished-at="2022-05-21T12:35:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.YourAccountSection_Test.payementOption(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:56 IST" name="endTest" finished-at="2022-05-21T12:35:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:56 IST" name="screenshot" finished-at="2022-05-21T12:35:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=payementOption status=SUCCESS method=YourAccountSection_Test.payementOption(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:56 IST" name="openBrowser" finished-at="2022-05-21T12:35:57 IST" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:57 IST" name="startTest" finished-at="2022-05-21T12:35:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.YourAccountSection_Test.signInandSecurity(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="signInandSecurity(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:35:57 IST" name="signInandSecurity" finished-at="2022-05-21T12:36:01 IST" duration-ms="4054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sangeetha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[121222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInandSecurity -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:01 IST" name="endLog" finished-at="2022-05-21T12:36:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.YourAccountSection_Test.signInandSecurity(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:01 IST" name="endTest" finished-at="2022-05-21T12:36:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:01 IST" name="screenshot" finished-at="2022-05-21T12:36:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signInandSecurity status=SUCCESS method=YourAccountSection_Test.signInandSecurity(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:01 IST" name="openBrowser" finished-at="2022-05-21T12:36:03 IST" duration-ms="1289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:03 IST" name="startTest" finished-at="2022-05-21T12:36:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.YourAccountSection_Test.yourOrder(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="yourOrder(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:03 IST" name="yourOrder" finished-at="2022-05-21T12:36:07 IST" duration-ms="4893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sangeetha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[121222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourOrder -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:07 IST" name="endLog" finished-at="2022-05-21T12:36:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.YourAccountSection_Test.yourOrder(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:07 IST" name="endTest" finished-at="2022-05-21T12:36:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf]" started-at="2022-05-21T12:36:07 IST" name="screenshot" finished-at="2022-05-21T12:36:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=yourOrder status=SUCCESS method=YourAccountSection_Test.yourOrder(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon.tests.YourAccountSection_Test@537f60bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.Amazon.tests.YourAccountSection_Test -->
+      <class name="com.Amazon.tests.addToCartTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:04 IST" name="openBrowser" finished-at="2022-05-21T12:35:05 IST" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:05 IST" name="startTest" finished-at="2022-05-21T12:35:05 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addToCartTest.addToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addToCart()[pri:1, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:05 IST" name="addToCart" finished-at="2022-05-21T12:35:21 IST" duration-ms="15538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:21 IST" name="endLog" finished-at="2022-05-21T12:35:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addToCartTest.addToCart() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:21 IST" name="endTest" finished-at="2022-05-21T12:35:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:21 IST" name="screenshot" finished-at="2022-05-21T12:35:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=addToCartTest.addToCart()[pri:1, instance:com.Amazon.tests.addToCartTest@4a883b15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:21 IST" name="openBrowser" finished-at="2022-05-21T12:35:22 IST" duration-ms="1329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:22 IST" name="startTest" finished-at="2022-05-21T12:35:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addToCartTest.findBlankText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="findBlankText()[pri:2, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:22 IST" name="findBlankText" finished-at="2022-05-21T12:35:26 IST" duration-ms="3627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBlankText -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:26 IST" name="endLog" finished-at="2022-05-21T12:35:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addToCartTest.findBlankText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:26 IST" name="endTest" finished-at="2022-05-21T12:35:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.addToCartTest@4a883b15]" started-at="2022-05-21T12:35:26 IST" name="screenshot" finished-at="2022-05-21T12:35:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findBlankText status=SUCCESS method=addToCartTest.findBlankText()[pri:2, instance:com.Amazon.tests.addToCartTest@4a883b15] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.Amazon.tests.addToCartTest -->
+      <class name="com.Amazon.tests.sortPurchase_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.sortPurchase_Test@51c668e3]" started-at="2022-05-21T12:34:20 IST" name="openBrowser" finished-at="2022-05-21T12:34:21 IST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.sortPurchase_Test@51c668e3]" started-at="2022-05-21T12:34:21 IST" name="startTest" finished-at="2022-05-21T12:34:21 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.sortPurchase_Test.sorting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="sorting()[pri:1, instance:com.Amazon.tests.sortPurchase_Test@51c668e3]" started-at="2022-05-21T12:34:21 IST" name="sorting" finished-at="2022-05-21T12:34:37 IST" duration-ms="15713" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[@id='p_90/6741118031']//i[@class='a-icon a-icon-checkbox']"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02P4WW', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value=//li[@id='p_90/6741118031']//i[@class='a-icon a-icon-checkbox']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@id='p_90/6741118031']//i[@class='a-icon a-icon-checkbox']"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02P4WW', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value=//li[@id='p_90/6741118031']//i[@class='a-icon a-icon-checkbox']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.Amazon.pages.sortPurchase.getItByTomorrow(sortPurchase.java:42)
+at com.Amazon.tests.sortPurchase_Test.sorting(sortPurchase_Test.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.sortPurchase_Test@51c668e3]" started-at="2022-05-21T12:34:37 IST" name="endLog" finished-at="2022-05-21T12:34:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.sortPurchase_Test.sorting() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.sortPurchase_Test@51c668e3]" started-at="2022-05-21T12:34:37 IST" name="endTest" finished-at="2022-05-21T12:34:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.sortPurchase_Test@51c668e3]" started-at="2022-05-21T12:34:37 IST" name="screenshot" finished-at="2022-05-21T12:34:37 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sorting status=FAILURE method=sortPurchase_Test.sorting()[pri:1, instance:com.Amazon.tests.sortPurchase_Test@51c668e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.Amazon.tests.sortPurchase_Test -->
+      <class name="com.Amazon.tests.changeCountry_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.changeCountry_Test@2e6a8155]" started-at="2022-05-21T12:34:37 IST" name="openBrowser" finished-at="2022-05-21T12:34:38 IST" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.changeCountry_Test@2e6a8155]" started-at="2022-05-21T12:34:38 IST" name="startTest" finished-at="2022-05-21T12:34:38 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.changeCountry_Test.clickOnCountry_Button() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="clickOnCountry_Button()[pri:1, instance:com.Amazon.tests.changeCountry_Test@2e6a8155]" started-at="2022-05-21T12:34:38 IST" name="clickOnCountry_Button" finished-at="2022-05-21T12:35:00 IST" duration-ms="22131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCountry_Button -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.changeCountry_Test@2e6a8155]" started-at="2022-05-21T12:35:00 IST" name="endLog" finished-at="2022-05-21T12:35:00 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.changeCountry_Test.clickOnCountry_Button() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.changeCountry_Test@2e6a8155]" started-at="2022-05-21T12:35:00 IST" name="screenshot" finished-at="2022-05-21T12:35:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnCountry_Button status=SUCCESS method=changeCountry_Test.clickOnCountry_Button()[pri:1, instance:com.Amazon.tests.changeCountry_Test@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.changeCountry_Test@2e6a8155]" started-at="2022-05-21T12:35:00 IST" name="endTest" finished-at="2022-05-21T12:35:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Amazon.tests.changeCountry_Test -->
+      <class name="com.Amazon.tests.changePassword_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.changePassword_Test@25641d39]" started-at="2022-05-21T12:35:26 IST" name="openBrowser" finished-at="2022-05-21T12:35:27 IST" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.changePassword_Test@25641d39]" started-at="2022-05-21T12:35:27 IST" name="startTest" finished-at="2022-05-21T12:35:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.changePassword_Test.pass(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="pass(java.lang.String)[pri:1, instance:com.Amazon.tests.changePassword_Test@25641d39]" started-at="2022-05-21T12:35:27 IST" name="pass" finished-at="2022-05-21T12:35:41 IST" duration-ms="13457" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sangeetha@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='auth-fpp-link-bottom']
+"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02P4WW', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value=//a[@id='auth-fpp-link-bottom']
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='auth-fpp-link-bottom']
+"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02P4WW', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value=//a[@id='auth-fpp-link-bottom']
+}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.Amazon.pages.changePassword.forgotPassword(changePassword.java:28)
+at com.Amazon.tests.changePassword_Test.pass(changePassword_Test.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.changePassword_Test@25641d39]" started-at="2022-05-21T12:35:41 IST" name="endLog" finished-at="2022-05-21T12:35:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.changePassword_Test.pass(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.changePassword_Test@25641d39]" started-at="2022-05-21T12:35:41 IST" name="endTest" finished-at="2022-05-21T12:35:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.changePassword_Test@25641d39]" started-at="2022-05-21T12:35:41 IST" name="screenshot" finished-at="2022-05-21T12:35:41 IST" duration-ms="145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pass status=FAILURE method=changePassword_Test.pass(java.lang.String)[pri:1, instance:com.Amazon.tests.changePassword_Test@25641d39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.Amazon.tests.changePassword_Test -->
+      <class name="com.Amazon.tests.addAddressTest">
+        <test-method is-config="true" signature="inializeWebDriver()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:54 IST" name="inializeWebDriver" finished-at="2022-05-21T12:33:56 IST" duration-ms="1991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inializeWebDriver -->
+        <test-method is-config="true" signature="logTest()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:56 IST" name="logTest" finished-at="2022-05-21T12:33:56 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTest -->
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:56 IST" name="setExtent" finished-at="2022-05-21T12:33:56 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:56 IST" name="openBrowser" finished-at="2022-05-21T12:33:58 IST" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:58 IST" name="startTest" finished-at="2022-05-21T12:33:58 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addAddressTest.addByPin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addByPin()[pri:1, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:58 IST" name="addByPin" finished-at="2022-05-21T12:33:59 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addByPin -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:59 IST" name="endLog" finished-at="2022-05-21T12:33:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addAddressTest.addByPin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:59 IST" name="endTest" finished-at="2022-05-21T12:33:59 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:59 IST" name="screenshot" finished-at="2022-05-21T12:33:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addByPin status=SUCCESS method=addAddressTest.addByPin()[pri:1, instance:com.Amazon.tests.addAddressTest@130c12b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:33:59 IST" name="openBrowser" finished-at="2022-05-21T12:34:00 IST" duration-ms="1467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:00 IST" name="startTest" finished-at="2022-05-21T12:34:00 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addAddressTest.througSignIN()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="througSignIN()[pri:2, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:00 IST" name="througSignIN" finished-at="2022-05-21T12:34:01 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- througSignIN -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:01 IST" name="endLog" finished-at="2022-05-21T12:34:01 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addAddressTest.througSignIN()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:01 IST" name="endTest" finished-at="2022-05-21T12:34:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:01 IST" name="openBrowser" finished-at="2022-05-21T12:34:03 IST" duration-ms="1652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:01 IST" name="screenshot" finished-at="2022-05-21T12:34:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=througSignIN status=SUCCESS method=addAddressTest.througSignIN()[pri:2, instance:com.Amazon.tests.addAddressTest@130c12b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:03 IST" name="startTest" finished-at="2022-05-21T12:34:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addAddressTest.InvalidAddPin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="InvalidAddPin()[pri:3, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:03 IST" name="InvalidAddPin" finished-at="2022-05-21T12:34:03 IST" duration-ms="897" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.Amazon.tests.addAddressTest.InvalidAddPin(addAddressTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidAddPin -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:03 IST" name="endLog" finished-at="2022-05-21T12:34:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.addAddressTest.InvalidAddPin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:03 IST" name="endTest" finished-at="2022-05-21T12:34:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:34:03 IST" name="screenshot" finished-at="2022-05-21T12:34:04 IST" duration-ms="602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidAddPin status=FAILURE method=addAddressTest.InvalidAddPin()[pri:3, instance:com.Amazon.tests.addAddressTest@130c12b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:36:08 IST" name="closeBrowser" finished-at="2022-05-21T12:36:12 IST" duration-ms="4175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endExtent()[pri:0, instance:com.Amazon.tests.addAddressTest@130c12b7]" started-at="2022-05-21T12:36:12 IST" name="endExtent" finished-at="2022-05-21T12:36:12 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- com.Amazon.tests.addAddressTest -->
+      <class name="com.Amazon.tests.amazonPrimeTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764]" started-at="2022-05-21T12:34:04 IST" name="openBrowser" finished-at="2022-05-21T12:34:05 IST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764]" started-at="2022-05-21T12:34:05 IST" name="startTest" finished-at="2022-05-21T12:34:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.amazonPrimeTest.subscription(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="subscription(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764]" started-at="2022-05-21T12:34:05 IST" name="subscription" finished-at="2022-05-21T12:34:19 IST" duration-ms="14026" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sangeetha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[121222]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":" //span[@class='pv-nav-link-with-droplist']//span//a[@id='pv-nav-sign-in']"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02P4WW', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value= //span[@class='pv-nav-link-with-droplist']//span//a[@id='pv-nav-sign-in']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":" //span[@class='pv-nav-link-with-droplist']//span//a[@id='pv-nav-sign-in']"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02P4WW', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\SAKSHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b95823c57290eaad0c2a7da40d6aa5
+*** Element info: {Using=xpath, value= //span[@class='pv-nav-link-with-droplist']//span//a[@id='pv-nav-sign-in']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy16.click(Unknown Source)
+at com.Amazon.pages.amazonPrime.signInButton(amazonPrime.java:43)
+at com.Amazon.tests.amazonPrimeTest.subscription(amazonPrimeTest.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscription -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764]" started-at="2022-05-21T12:34:19 IST" name="endLog" finished-at="2022-05-21T12:34:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.amazonPrimeTest.subscription(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764]" started-at="2022-05-21T12:34:19 IST" name="screenshot" finished-at="2022-05-21T12:34:20 IST" duration-ms="645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=subscription status=FAILURE method=amazonPrimeTest.subscription(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.amazonPrimeTest@6fdbe764]" started-at="2022-05-21T12:34:19 IST" name="endTest" finished-at="2022-05-21T12:34:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Amazon.tests.amazonPrimeTest -->
+      <class name="com.Amazon.tests.forwardAndBackward_Pic_Test">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Amazon.tests.forwardAndBackward_Pic_Test@6221a451]" started-at="2022-05-21T12:35:00 IST" name="openBrowser" finished-at="2022-05-21T12:35:02 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.forwardAndBackward_Pic_Test@6221a451]" started-at="2022-05-21T12:35:02 IST" name="startTest" finished-at="2022-05-21T12:35:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.forwardAndBackward_Pic_Test.clickOnImage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="clickOnImage()[pri:1, instance:com.Amazon.tests.forwardAndBackward_Pic_Test@6221a451]" started-at="2022-05-21T12:35:02 IST" name="clickOnImage" finished-at="2022-05-21T12:35:04 IST" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnImage -->
+        <test-method is-config="true" signature="endLog(java.lang.reflect.Method)[pri:0, instance:com.Amazon.tests.forwardAndBackward_Pic_Test@6221a451]" started-at="2022-05-21T12:35:04 IST" name="endLog" finished-at="2022-05-21T12:35:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Amazon.tests.forwardAndBackward_Pic_Test.clickOnImage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endLog -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.Amazon.tests.forwardAndBackward_Pic_Test@6221a451]" started-at="2022-05-21T12:35:04 IST" name="endTest" finished-at="2022-05-21T12:35:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.Amazon.tests.forwardAndBackward_Pic_Test@6221a451]" started-at="2022-05-21T12:35:04 IST" name="screenshot" finished-at="2022-05-21T12:35:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnImage status=SUCCESS method=forwardAndBackward_Pic_Test.clickOnImage()[pri:1, instance:com.Amazon.tests.forwardAndBackward_Pic_Test@6221a451] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+      </class> <!-- com.Amazon.tests.forwardAndBackward_Pic_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

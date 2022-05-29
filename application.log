@@ -1,0 +1,71 @@
+2022-05-21 12:33:56,427  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:33:58,253  INFO [main] BaseTest:88 - operation addByPin has started
+2022-05-21 12:33:58,549  INFO [main] BaseTest:17 - pin code entered
+2022-05-21 12:33:58,900  INFO [main] BaseTest:19 - click on apply
+2022-05-21 12:33:59,110  INFO [main] BaseTest:102 - operationaddByPin has ended
+2022-05-21 12:33:59,121  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:34:00,588  INFO [main] BaseTest:88 - operation througSignIN has started
+2022-05-21 12:34:00,839  INFO [main] BaseTest:34 - adding address using login
+2022-05-21 12:34:01,273  INFO [main] BaseTest:36 - clicked on apply
+2022-05-21 12:34:01,422  INFO [main] BaseTest:102 - operationthrougSignIN has ended
+2022-05-21 12:34:01,425  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:34:03,077  INFO [main] BaseTest:88 - operation InvalidAddPin has started
+2022-05-21 12:34:03,347  INFO [main] BaseTest:53 - entering invalid pin
+2022-05-21 12:34:03,953  INFO [main] BaseTest:57 - applying assertion on title
+2022-05-21 12:34:03,979  INFO [main] BaseTest:102 - operationInvalidAddPin has ended
+2022-05-21 12:34:04,587  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:34:05,683  INFO [main] BaseTest:88 - operation subscription has started
+2022-05-21 12:34:19,714  INFO [main] BaseTest:102 - operationsubscription has ended
+2022-05-21 12:34:20,362  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:34:21,478  INFO [main] BaseTest:88 - operation sorting has started
+2022-05-21 12:34:37,198  INFO [main] BaseTest:102 - operationsorting has ended
+2022-05-21 12:34:37,529  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:34:38,788  INFO [main] BaseTest:88 - operation clickOnCountry_Button has started
+2022-05-21 12:35:00,925  INFO [main] BaseTest:102 - operationclickOnCountry_Button has ended
+2022-05-21 12:35:00,929  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:02,299  INFO [main] BaseTest:88 - operation clickOnImage has started
+2022-05-21 12:35:04,755  INFO [main] BaseTest:102 - operationclickOnImage has ended
+2022-05-21 12:35:04,764  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:05,911  INFO [main] BaseTest:88 - operation addToCart has started
+2022-05-21 12:35:05,914  INFO [main] BaseTest:19 - searching product 
+2022-05-21 12:35:06,175  INFO [main] BaseTest:22 - click on search button
+2022-05-21 12:35:08,098  INFO [main] BaseTest:25 - selecting product
+2022-05-21 12:35:08,565  INFO [main] BaseTest:29 - moving control to child website
+2022-05-21 12:35:08,600  INFO [main] BaseTest:37 - adding to cart
+2022-05-21 12:35:21,452  INFO [main] BaseTest:102 - operationaddToCart has ended
+2022-05-21 12:35:21,454  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:22,783  INFO [main] BaseTest:88 - operation findBlankText has started
+2022-05-21 12:35:22,786  INFO [main] BaseTest:57 - searching blank product
+2022-05-21 12:35:26,416  INFO [main] BaseTest:102 - operationfindBlankText has ended
+2022-05-21 12:35:26,418  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:27,624  INFO [main] BaseTest:88 - operation pass has started
+2022-05-21 12:35:41,084  INFO [main] BaseTest:102 - operationpass has ended
+2022-05-21 12:35:41,232  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:42,455  INFO [main] BaseTest:88 - operation invaildLogin has started
+2022-05-21 12:35:44,268  INFO [main] BaseTest:102 - operationinvaildLogin has ended
+2022-05-21 12:35:44,271  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:45,399  INFO [main] BaseTest:88 - operation validLogin has started
+2022-05-21 12:35:48,230  INFO [main] BaseTest:102 - operationvalidLogin has ended
+2022-05-21 12:35:48,232  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:49,332  INFO [main] BaseTest:88 - operation validRegistration has started
+2022-05-21 12:35:51,138  INFO [main] BaseTest:102 - operationvalidRegistration has ended
+2022-05-21 12:35:51,143  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:52,202  INFO [main] BaseTest:88 - operation payementOption has started
+2022-05-21 12:35:56,233  INFO [main] BaseTest:102 - operationpayementOption has ended
+2022-05-21 12:35:56,235  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:35:57,662  INFO [main] BaseTest:88 - operation signInandSecurity has started
+2022-05-21 12:36:01,720  INFO [main] BaseTest:102 - operationsignInandSecurity has ended
+2022-05-21 12:36:01,726  INFO [main] BaseTest:166 - amazon page open
+2022-05-21 12:36:03,017  INFO [main] BaseTest:88 - operation yourOrder has started
+2022-05-21 12:36:07,913  INFO [main] BaseTest:102 - operationyourOrder has ended
+2022-05-21 12:36:12,193  INFO [main] BaseTest:173 - browser close
+2022-05-21 12:36:12,211 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-05-21 12:36:12,212 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-05-21 12:36:12,214 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-05-21 12:36:12,216 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-05-21 12:36:12,216 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sakshamsinghal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2022-05-21 12:36:12,415 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-05-21 12:36:12,415 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2022-05-21 12:36:12,415 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2022-05-21 12:36:12,415 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2022-05-21 12:36:12,416 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sakshamsinghal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
