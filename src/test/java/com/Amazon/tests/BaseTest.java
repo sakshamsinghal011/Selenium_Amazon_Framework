@@ -31,7 +31,7 @@ public class BaseTest {
 	
 	
 	
-	static WebDriver driver;
+	static WebDriver    driver;
 	public static ExtentReports extent;
 	public static ExtentTest extentTest;
 
@@ -76,6 +76,7 @@ public class BaseTest {
 	public void endExtent() {
 		extent.flush();
 		extent.close();
+		System.out.println("report generated");
 	}
 
 	// Extend Report
