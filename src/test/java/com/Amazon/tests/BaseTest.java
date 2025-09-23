@@ -41,6 +41,7 @@ public class BaseTest {
 	static FileInputStream fis = null;
 	static Properties prop = new Properties();
 
+	System.out.println("Yes It works");
 
 	
 	static {
